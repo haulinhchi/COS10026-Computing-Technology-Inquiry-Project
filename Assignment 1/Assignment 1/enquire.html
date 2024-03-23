@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Group 4: Hau Linh Chi, Nguyen Vu Duy Minh, Tran Huy Vu, Bui Thai Anh, Phan Sy Tuan">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,500&family=Playfair+Display:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>TCAMV</title>
+</head>
+
+<body>
+    
+    <!-- Nav bar -->
+
+    <nav class="vu1">
+        <a href="index.html"><img src="images/1.png" alt="Logo" class="vu2"></a>
+        <div class="vu3">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="enquire.html">Enquire</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="enhancements.html">Enhancements</a></li>
+            </ul>
+        </div>
+        <div class="vu4">
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+        </div>
+    </nav>
+
+    <div class="vu12">
+        <div class="vu13">
+            <div class="vu14">Enquiry Form</div>
+            <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+                    <div class="vu15">
+                            <label for="fname">First Name</label>
+                            <input type="text" name="fname" id="fname" required="required" pattern="^[a-zA-Z ]+$" maxlength="25" placeholder="Please enter your first name" title="Please enter no more than 25 characters">
+                    </div>
+                    <div class="vu15">
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="lname" id="lname" required="required" pattern="^[a-zA-Z ]+$" maxlength="25" placeholder="Please enter your last name" title="Please enter no more than 25 characters">
+                    </div>
+                    <div class="vu15">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required="required" placeholder="Please enter your email address">
+                    </div>
+                    <div class="vu15">
+                            <label for="phone">Phone number</label>
+                            <input type="text" name="phone" id="phone" required="required" pattern="[0-9]{0,10}" placeholder="XXXX-YYYY-ZZ" title="Please enter exactly 10 digits">
+                    </div>
+                        <fieldset class="vu16">
+                                <div class="vu15">
+                                    <label for="address">Street address</label>
+                                    <input type="text" name="address" id="address" required="required" maxlength="40" placeholder="Please enter your street address" title="Please enter no more than 40 characters">
+                                </div>
+                                <div class="vu15">
+                                    <label for="st">Suburb/Town</label>
+                                    <input type="text" name="st" id="st" required="required" maxlength="20" placeholder="Please enter your suburb/town" title="Please enter no more than 20 characters">
+                                </div>
+                                <div class="vu15">
+                                    <label for="state">State</label>
+                                    <select name="state" id="state">
+                                        <option value="">Please select</option>
+                                        <option value="vic">VIC</option>
+                                        <option value="nsw">NSW</option>
+                                        <option value="qld">QLD</option>
+                                        <option value="nt">NT</option>
+                                        <option value="wa">WA</option>
+                                        <option value="sa">SA</option>
+                                        <option value="tas">TAS</option>
+                                        <option value="act">ACT</option>
+                                    </select>
+                                </div>
+                                <div class="vu15">
+                                    <label for="postcode">Postcode</label>
+                                    <input type="text" name="postcode" id="postcode" required="required" pattern="\d{4}" placeholder="Please enter your postcode" title="Please enter exactly 4 digits">
+                                </div>
+                        </fieldset>
+                    <div class="vu17">
+                        <div class="vu18">
+                            Preferred contact
+                        </div>
+                        <input type="radio" id="gmail" name="pcontact" value="gmail" required="required" checked="checked"> 
+                        <label for="gmail">Email</label>
+                        <input type="radio" id="post" name="pcontact" value="post" required="required"> 
+                        <label for="post">Postcode</label>
+                        <input type="radio" id="num" name="pcontact" value="num" required="required"> 
+                        <label for="num">Phone number</label>
+                    </div>      
+                    <div class="vu15">
+                            <label for="product">Product</label>
+                            <select name="product" id="product">
+                                <option value="">Please select</option>
+                                <option value="dev">Development</option>
+                                <option value="bus">Business</option>
+                                <option value="it">IT & Software</option>
+                                <option value="des">Design</option>
+                            </select>
+                    </div>
+                    <div class="vu19">
+                        <div class="vu20">Product features</div>
+                            <label for="time">Time</label>
+                            <input type="checkbox" id="time" name="fea" value="time" checked="checked">
+                            <label for="price">Price</label>
+                            <input type="checkbox" id="price" name="fea" value="price">
+                            <label for="rating">Rating</label>
+                            <input type="checkbox" id="rating" name="fea" value="rating">
+                            <label for="ex">Exercises</label>
+                            <input type="checkbox" id="ex" name="fea" value="ex">
+                    </div>
+                    <div class="vu21">
+                        <label for="comment">Comment fields</label>
+                        <textarea id="comment" name="comment" placeholder="Feel free to give us any comments"></textarea>
+                    </div>
+                <div class="vu22">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="vu5">
+        <div class="vu6">
+            <div class="vu7">
+                <div class="vu8">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="enquire.html">Enquire</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="enhancements.html">Enhancements</a></li>
+                    </ul>
+                </div>
+                <div class="vu8">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="vu8">
+                    <h4>Online courses</h4>
+                    <ul>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">IT & Software</a></li>
+                        <li><a href="#">Design</a></li>
+                    </ul>
+                </div>
+                <div class="vu8">
+                    <h4>Follow us</h4>
+                    <div class="vu9">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="vu10">
+                        <p class="vu11"><i class="fa-solid fa-copyright"></i> 2023 TCAMV. ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
