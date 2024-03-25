@@ -31,8 +31,8 @@
                     Expand your skill set now!
                 </p>
                 <div class="hero-buttons">
-                    <a href="product.html" id="hero-product">View all courses</a>
-                    <a href="about.html" id="hero-about">About TCAMV</a>
+                    <a href="product.php" id="hero-product">View all courses</a>
+                    <a href="about.php" id="hero-about">About TCAMV</a>
                 </div>
             </div>
             <div class="hero-right">
@@ -95,7 +95,7 @@
                             <p>&nbsp;Savannah Haynes</p>
                         </div>
                         <div class="fcourse-button">
-                            <a href="product.html">View course</a>
+                            <a href="product.php">View course</a>
                         </div>
                     </div>
                     <div class="fcourse2">
@@ -112,7 +112,7 @@
                             <p>&nbsp;Roger Lara</p>
                         </div>
                         <div class="fcourse-button">
-                            <a href="product.html">View course</a>
+                            <a href="product.php">View course</a>
                         </div>
 
                     </div>
@@ -130,7 +130,7 @@
                             <p>&nbsp;Amina Nixon</p>
                         </div>
                         <div class="fcourse-button">
-                            <a href="product.html">View course</a>
+                            <a href="product.php">View course</a>
                         </div>
 
                     </div>
@@ -151,7 +151,7 @@
                             <p>&nbsp;Sean Liu</p>
                         </div>
                         <div class="fcourse-button">
-                            <a href="product.html">View course</a>
+                            <a href="product.php">View course</a>
                         </div>
 
                     </div>
@@ -169,7 +169,7 @@
                             <p>&nbsp;Riley Mason</p>
                         </div>
                         <div class="fcourse-button">
-                            <a href="product.html">View course</a>
+                            <a href="product.php">View course</a>
                         </div>
                     </div>
                     <div class="fcourse6">
@@ -186,14 +186,14 @@
                             <p>&nbsp;Stuart Pittman</p>
                         </div>
                         <div class="fcourse-button">
-                            <a href="product.html">View course</a>
+                            <a href="product.php">View course</a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div id="minh-navigate-button-container">
-                <a href="product.html" class="minh-navigate-button">Show me more</a>
+                <a href="product.php" class="minh-navigate-button">Show me more</a>
             </div><br>
         </div>
     </section>
@@ -206,11 +206,11 @@
             usemap="#imagemap">
 
         <map name="imagemap">
-            <area target="_self" alt="View all new discount Computer Science courses" href="product.html"
+            <area target="_self" alt="View all new discount Computer Science courses" href="product.php"
                 coords="498,163,576,189" shape="rect">
-            <area target="_self" alt="View all new discount Business courses" href="product.html"
+            <area target="_self" alt="View all new discount Business courses" href="product.php"
                 coords="674,230,752,254" shape="rect">
-            <area target="_self" alt="View all new discount Media courses" href="product.html" coords="851,164,928,189"
+            <area target="_self" alt="View all new discount Media courses" href="product.php" coords="851,164,928,189"
                 shape="rect">
         </map>
     </div>
@@ -227,7 +227,7 @@
                     high-quality and affordable courses for students of all levels. Our experienced tutors will create
                     an engaging, interactive learning experience that you will not find anywhere else.
                 </p>
-                <a class="minh-about-button" href="product.html">Learn more</a>
+                <a class="minh-about-button" href="product.php">Learn more</a>
             </div>
         </div>
     </section>
